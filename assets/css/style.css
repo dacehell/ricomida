@@ -1,0 +1,149 @@
+
+body *{
+  font-family: 'Cabin', sans-serif;
+  margin:0;
+  padding: 0;
+}
+.navbar-brand p{
+  font-family: 'Lobster', cursive;
+  font-size: 37pt;
+  color: #FFFFFF;
+}
+.navbar-font a{
+  font-size: 16pt;
+}
+
+.mtop{
+  margin-top:15%;
+}
+h1{
+  font-size:40pt;
+  font-weight: 700;
+  color: #373A3C;
+}
+.porcion{
+  font-size:20pt;
+  font-weight: 700;
+  color:#373A3C;
+}
+hr.head{
+  border-color:black;
+  width:45%;
+  border-left:45%;
+  margin-bottom:20px;
+  display: flex;
+  }
+  hr.body {
+    border-color: black;
+    margin-bottom:30px;
+  }
+
+.carousel-inner img{
+  height:53% ;
+}
+.carousel-inner {
+  height: 200px;
+}
+
+div .carousel-item {
+  height: 200px;
+}
+div .row{
+  height: 200px;
+}
+
+div ol li{
+  border-radius: 50%;
+  height: 5px !important;
+  width: 5px !important;
+}
+.two-columns {
+  font-size:20pt;
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 20px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+
+  -webkit-column-gap: 8rem;
+  -moz-column-gap: 8rem;
+  column-gap: 8rem;
+}
+h2{
+  text-decoration: underline;
+}
+.recetas{
+  font-size: 40pt;
+  text-align: center;
+  text-decoration:none;
+}
+.suscripcion{
+  height: 500px;
+  background: #DC3545;
+}
+.suscripcion :first-child{
+  font-size: 40pt;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+}
+.recetas {
+  margin-bottom: 25px;
+}
+div .slogan {
+  font-size: 30pt;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+}
+div .logo{
+  font-family: 'Lobster', cursive;
+  color: #FFFFFF;
+  font-size: 25pt;
+  }
+  footer p{
+    background: #373A3C;
+    font-family: 'Lobster', cursive;
+    color: #FFFFFF;
+    font-size: 30pt;
+    text-align: center;
+  }
+@media only screen and (max-width: 600px) {
+  .two-columns{
+    column-count:1;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  body{
+    margin: 5px;
+    }
+    h1{
+      font-size: 35pt;
+      margin-top: 5px;
+    }
+  .recetas{
+    font-size: 35pt;
+  }
+  div #pizza img {
+    margin-top:70px;
+  }
+  hr {
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+  .porcion {
+    margin-bottom:20px;
+  }
+.suscripcion :first-child {
+    font-size: 35pt;
+  }
+  div .slogan{
+    font-size: 25pt;
+  }
+
+}
